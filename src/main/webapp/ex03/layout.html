@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        console.log("2.Hello world")
+    </script>
+    <script src="MyScript.js"></script>
+</head>
+<body>
+<div class="container">
+<header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li class="logout"><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <aside class="cont">
+        <div class="menu-section">云技术管理</div>
+        <ul>
+            <li><a href="#">云服务器</a></li>
+            <li><a href="#">云数据库</a></li>
+            <li><a href="#">负载均衡</a></li>
+        </ul>
+        <div class="menu-section">安全管理</div>
+        <ul>
+            <li><a href="#">云盾控制台</a></li>
+            <li><a href="#">DDoS高防IP</a></li>
+            <li><a href="#">Web应用防火墙</a></li>
+            <li><a href="#">CA证书服务</a></li>
+        </ul>
+    </aside>
+    <article>
+        <h2>设计内容</h2>
+        <p>为各部分区域设计统一样式；全局取消元素内外边距，按box尺寸计算</p>
+        <p><strong>需求0</strong><br>
+            基于当前HTML代码，弹性栅格布局页面。header/footer占1行；main中sidebar最小宽度200px；article占剩余全部。行中空间不足元素不换行，由响应式布局决定小尺寸显示效果</p>
+        <p><strong>上导航 +1</strong><br>
+            基于弹性布局，为header中的上导航添加背景色/悬浮字体颜色等样式，且将logout推至最右侧</p>
+        <p><strong>左侧边栏 +1</strong><br>
+            为左侧边栏添加样式，添加背景色/字体色/悬浮等样式</p>
+    </article>
+</main>
+<footer>
+    东北林业大学<br>软件工程专业 2046©
+</footer>
+</div>
+</body>
+</html>

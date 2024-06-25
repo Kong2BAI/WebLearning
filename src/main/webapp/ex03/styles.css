@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+    height: 100vh; /* 视口高度 */
+    background-color: silver;
+    margin: 0;
+}
+.container {
+    width: 80%; /* 你可以根据需要调整宽度 */
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+.cont{
+    border: darkred 1px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logout {
+    margin-left: auto;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    min-width: 200px;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+aside .menu-section {
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #4CAF50; /* 设置背景色 */
+    color: #fff; /* 设置文字颜色 */
+    padding: 5px; /* 设置内边距 */
+}
+
+aside ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+aside ul li {
+    margin-top: 5px;
+}
+
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff7c0;
+}
+
+article h2 {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ffcc66;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
